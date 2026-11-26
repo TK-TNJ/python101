@@ -18,7 +18,7 @@ def validate_email(email):
 
 # Function to validate phone number
 def validate_phone(phone):
-    pattern = r'^[6-9][0-9]{9}$'
+    pattern = r'^[6-9][0-9]{9}$'    
 
     if re.match(pattern, phone):
         print("Valid Phone Number")
